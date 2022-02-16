@@ -1,0 +1,5 @@
+DATABASE_NAME = 'history.db'
+URL_SEARCH = 'https://hotels4.p.rapidapi.com/locations/v2/search'
+URL_PROPERTIES = 'https://hotels4.p.rapidapi.com/properties/list'
+URL_PHOTO = 'https://hotels4.p.rapidapi.com/properties/get-hotel-photos'
+HOST = 'hotels4.p.rapidapi.com'
