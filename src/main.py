@@ -42,8 +42,8 @@ def command_start(message: Any) -> None:
 
 @bot.message_handler(commands=['help'])
 def command_help(message: Any) -> None:
-    logger.info(f'Пользователь {message.from_user.id} ввёл команду {message.text}')
     """ Функция для обработки команды /help"""
+    logger.info(f'Пользователь {message.from_user.id} ввёл команду {message.text}')
     bot.send_message(message.from_user.id,
                      'Мои функции:\n\n'
                      '/lowprice - вывод самых дешёвых отелей в городе.\n'
